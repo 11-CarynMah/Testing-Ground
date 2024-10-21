@@ -1,0 +1,126 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/*--Font CSS--*/
+@font-face {
+    font-family: Astronomus;
+    src: url(../Font/astronomus/Astronomus.ttf);
+}
+
+body {
+    background-color: #16151C;
+}
+
+main {
+    margin: 0 auto;
+    width: 90%;
+    font-family: Astronomus;
+}
+
+/*--Body CSS--*/
+.container {
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.feedbackForm {
+    background-color: #27282f;
+    color: #70d4e4;
+    float: left;
+    line-height: 500%;
+    padding: 50px;
+}
+
+.feedbackForm h1 {
+    text-align: center;
+}
+
+label {
+    width: 150px;
+    display: inline-block;
+}
+
+input {
+    border: 3px solid #70d4e4;
+    padding: 10px;
+    outline: none;
+    background-color: #27282f;
+    color: #70d4e4;
+    width: 300px;
+}
+
+input[type="submit"]{
+    cursor: pointer;
+}
+
+input:focus {
+    border: 3px solid #054950;
+}
+
+.contact {
+    color: #b7c0de;
+    float: right;
+    line-height: 500%;
+    padding: 50px;
+    text-align: center;
+}
+
+.socialMedia{
+    display: flexbox;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.submitBTN{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+/*--Navigation CSS--*/
+nav {
+    background-color: #16151C;
+    color: #f2f2f2;
+    padding: 1em;
+    display: flex;
+    justify-content: right;
+}
+
+nav a:link {
+    color: #f2f2f2;
+}
+
+
+nav a:hover {
+    color: #f2f2f2;
+    background-color: #545456;
+}
+
+nav ul li a {
+    color: #f2f2f2;
+    text-decoration: none;
+    padding: 1em;
+}
+
+nav ul.main-nav {
+    display: flex;
+
+}
+
+ul {
+    list-style-type: none;
+    /*Removes the bullet points*/
+}
+
+.Logo{
+    float: left;
+    position: relative;
+    margin: 20px;
+    height: 40px;
+}
+

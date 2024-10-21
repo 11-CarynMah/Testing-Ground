@@ -1,0 +1,212 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box
+}
+
+/*--Font CSS--*/
+@font-face {
+    font-family: Astronomus;
+    src: url(../Font/astronomus/Astronomus.ttf);
+}
+
+/*--Body CSS--*/
+body {
+    background-color: #16151C;
+}
+
+
+main {
+    margin: 0 auto;
+    width: 80%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
+}
+
+.paragraph-center {
+    text-align: center; 
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+p {
+    color: #5eb2be;
+    text-align:left;
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+h1,
+h2 {
+    color: #b7c0de;
+    text-align: center;
+    font-family: Astronomus;
+}
+
+div {
+    margin: 20px;
+    padding: 20px;
+    background-color: #27282f;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+.img img {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*--Skill Box--*/
+
+.skills {
+    display: flex;
+    justify-content: center;
+}
+
+.programmingSkills {
+    margin-left: 30px;
+    margin-left: 30px;
+    width: 50%;
+}
+
+.designSkills {
+    margin-left: 30px;
+    margin-left: 30px;
+    width: 50%;
+}
+
+.container {
+    width: 80%;
+    height: 11%;
+    margin-top: -10px;
+    padding-bottom: 5px;
+}
+
+.skills {
+    text-align: right;
+    color: white;
+}
+
+
+
+.csharp {
+    width: 90%;
+    height: 70%;
+    background-color: #ed706d;
+}
+
+.java {
+    width: 60%;
+    height: 70%;
+    background-color: #ed706d;
+}
+
+.html {
+    width: 80%;
+    height: 70%;
+    background-color: #ed706d;
+}
+
+.css {
+    width: 70%;
+    height: 70%;
+    background-color: #ed706d;
+}
+
+.javascript {
+    width: 65%;
+    height: 70%;
+    background-color: #ed706d;
+}
+
+.photoshop {
+    width: 90%;
+    height: 70%;
+    background-color: #ed706d;
+}
+
+.illustrator {
+    width: 90%;
+    height: 70%;
+    background-color: #ed706d;
+}
+
+.premiere {
+    width: 70%;
+    height: 70%;
+    background-color: #ed706d;
+}
+
+.indesign {
+    width: 50%;
+    height: 70%;
+    background-color: #ed706d;
+}
+
+.maya {
+    width: 60%;
+    height: 70%;
+    background-color: #ed706d;
+}
+
+/*--Navigation CSS--*/
+nav {
+    background-color: #16151C;
+    color: #f2f2f2;
+    padding: 1em;
+    display: flex;
+    justify-content: right;
+}
+
+nav a:link {
+    color: #f2f2f2;
+}
+
+
+nav a:hover {
+    color: #f2f2f2;
+    background-color: #545456;
+}
+
+nav ul li a {
+    color: #f2f2f2;
+    text-decoration: none;
+    padding: 1em;
+}
+
+nav ul.main-nav {
+    display: flex;
+
+}
+
+ul {
+    list-style-type: none;
+    /*Removes the bullet points*/
+}
+
+.Logo {
+    float: left;
+    position: relative;
+    margin: 20px;
+    height: 40px;
+}
+
+/*--Footer CSS--*/
+footer {
+    background-color: #27282f;
+}
+
+footer p {
+    color: #b7c0de;
+}
+
+footer div.copyright {
+    margin-top: -40px;
+    margin-bottom: -10px;
+}
